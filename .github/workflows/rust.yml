@@ -19,4 +19,6 @@ jobs:
     - name: Build
       run: pwd
     - name: hhh
-      run: ls -als  && bash ./installWasmEdge.sh
+      run: ls -als  && bash ./script/installWasmEdge.sh
+    - name: hhh
+      run: bash ./script/rustHelloWorld.sh
