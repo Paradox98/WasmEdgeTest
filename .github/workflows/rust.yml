@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: pwd
     - name: hhh
-      run: bash ./installWasmEdge.sh
+      run: ll && bash ./installWasmEdge.sh
